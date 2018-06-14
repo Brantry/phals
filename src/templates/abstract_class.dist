@@ -1,0 +1,7 @@
+<?php
+
+namespace {{ namespace }};
+{{ description }}
+abstract class {{ class_name }}{
+
+}

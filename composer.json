@@ -1,0 +1,29 @@
+{
+  "name": "denzyl/phals",
+  "description": "Create php classes from the terminal",
+  "type": "composer-library",
+  "require": {
+    "phpunit/phpunit": "^6.0",
+    "composer-plugin-api": "^1.1",
+    "php":"^7.1",
+    "symfony/filesystem": "3.2.x-dev",
+    "symfony/console": "^3.3@dev"
+  },
+  "license": "GPL-3",
+  "authors": [
+    {
+      "name": "Denzyl Dick",
+      "email": "denzyl@live.nl"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Phals\\": "src/"
+    }
+  },
+  "require-dev": {
+    "composer/composer": "^1.4"
+  },
+  "bin":["src/bin/phals"]
+}
